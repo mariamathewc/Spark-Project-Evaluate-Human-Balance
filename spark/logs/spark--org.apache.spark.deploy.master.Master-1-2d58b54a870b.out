@@ -1,0 +1,38 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /opt/spark-2.3.4-bin-hadoop2.7/conf/:/opt/spark-2.3.4-bin-hadoop2.7/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host 2d58b54a870b --port 7077 --webui-port 8080
+========================================
+2021-02-27 00:20:07 INFO  Master:2612 - Started daemon with process name: 1590@2d58b54a870b
+2021-02-27 00:20:07 INFO  SignalUtils:54 - Registered signal handler for TERM
+2021-02-27 00:20:07 INFO  SignalUtils:54 - Registered signal handler for HUP
+2021-02-27 00:20:07 INFO  SignalUtils:54 - Registered signal handler for INT
+2021-02-27 00:20:08 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2021-02-27 00:20:08 INFO  SecurityManager:54 - Changing view acls to: root
+2021-02-27 00:20:08 INFO  SecurityManager:54 - Changing modify acls to: root
+2021-02-27 00:20:08 INFO  SecurityManager:54 - Changing view acls groups to: 
+2021-02-27 00:20:08 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2021-02-27 00:20:08 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2021-02-27 00:20:09 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2021-02-27 00:20:10 INFO  Master:54 - Starting Spark master at spark://2d58b54a870b:7077
+2021-02-27 00:20:10 INFO  Master:54 - Running Spark version 2.3.4
+2021-02-27 00:20:10 INFO  log:192 - Logging initialized @4770ms
+2021-02-27 00:20:10 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2021-02-27 00:20:10 INFO  Server:419 - Started @5015ms
+2021-02-27 00:20:10 INFO  AbstractConnector:278 - Started ServerConnector@32618af2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2021-02-27 00:20:10 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61dfdc32{/app,null,AVAILABLE,@Spark}
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27dc2662{/app/json,null,AVAILABLE,@Spark}
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@23d4b9{/,null,AVAILABLE,@Spark}
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f146234{/json,null,AVAILABLE,@Spark}
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@59bda882{/static,null,AVAILABLE,@Spark}
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4ddf5e89{/app/kill,null,AVAILABLE,@Spark}
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4ac64168{/driver/kill,null,AVAILABLE,@Spark}
+2021-02-27 00:20:10 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://2d58b54a870b:8080
+2021-02-27 00:20:10 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2021-02-27 00:20:10 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7573babc{/,null,AVAILABLE}
+2021-02-27 00:20:10 INFO  AbstractConnector:278 - Started ServerConnector@6346b458{HTTP/1.1,[http/1.1]}{2d58b54a870b:6066}
+2021-02-27 00:20:10 INFO  Server:419 - Started @5409ms
+2021-02-27 00:20:10 INFO  Utils:54 - Successfully started service on port 6066.
+2021-02-27 00:20:10 INFO  StandaloneRestServer:54 - Started REST server for submitting applications on port 6066
+2021-02-27 00:20:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@518e703{/metrics/master/json,null,AVAILABLE,@Spark}
+2021-02-27 00:20:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@b910c09{/metrics/applications/json,null,AVAILABLE,@Spark}
+2021-02-27 00:20:11 INFO  Master:54 - I have been elected leader! New state: ALIVE
+2021-02-27 00:21:09 INFO  Master:54 - Registering worker 172.18.0.2:41077 with 2 cores, 6.3 GB RAM
